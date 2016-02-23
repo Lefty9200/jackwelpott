@@ -1,0 +1,157 @@
+html, body {
+  font-family: 'Arvo', sans-serif;
+}
+
+.col-md-6 {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.container-fluid {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.row-fluid {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+/* header */
+h1 {
+  padding: 10px 15px;
+}
+
+.header p {
+  padding: 0px 15px;
+}
+
+.header ul {
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.header li a {
+  padding: 10px 15px;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;  
+}
+
+.header ul.nav a:hover {
+  background-color: white;
+  border-top: #DDDDDD solid 1px;
+  border-right: #DDDDDD solid 1px;
+  border-bottom: white solid 1px;
+  border-left: #DDDDDD solid 1px;
+}
+
+.header ul.nav a:focus {
+  background-color: white;
+  border-top: #DDDDDD solid 1px;
+  border-right: #DDDDDD solid 1px;
+  border-bottom: white solid 1px;
+  border-left: #DDDDDD solid 1px;
+ }
+
+ /* Main */
+ .secondary-nav a {
+  text-decoration: none;
+  color: black;  
+}
+
+.secondary-nav ul.nav a:hover {
+  background-color: white;
+  border-top: #DDDDDD solid 1px;
+  border-right: #DDDDDD solid 1px;
+  border-bottom: white solid 1px;
+  border-left: #DDDDDD solid 1px;
+}
+
+.secondary-nav ul.nav a:focus {
+  background-color: white;
+  border-top: #DDDDDD solid 1px;
+  border-right: #DDDDDD solid 1px;
+  border-bottom: white solid 1px;
+  border-left: #DDDDDD solid 1px;
+ }
+
+ /* Main Content */
+.main-content {
+  padding: 45px 90px 60px 90px;
+}
+
+.title {
+  margin-bottom: 40px;
+}
+
+.overview {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.post {
+  padding-bottom: 60px;
+  border-bottom: #DDDDDD solid 1px;
+}
+
+.book {
+  max-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  color: black;
+}
+
+/* Footer */
+
+.footer .social-media {
+  border-top: #DDDDDD solid 1px;
+}
+
+.footer ul {
+  margin-top: 10px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.footer ul li {
+  display: inline;
+}
+
+.footer ul li a {
+  padding: 10px 15px 15px 15px;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+.footer p {
+  color: #8A8A8A;
+  font-size: 12px;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 45px 45px 60px 45px;
+  }
+}
+
+@media (max-width: 414px) {
+  .main-content {
+   padding: 45px 22.5px 60px 22.5px;
+  }
+}
+
+@media (max-width: 360px) {
+  .header li a {
+    padding: 10px 8px;
+  }
+  .secondary-nav li a {
+    padding: 10px 8px;
+  }
+}

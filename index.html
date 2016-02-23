@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>GTD</title>
+    <title>Jack Welpott Photography</title>
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
     
     <link href="styles/bootstrap.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
@@ -13,47 +14,60 @@
   </head>
   <body>
     <div class="header">
-      <div class="container">
-        <h1>GET THINGS DONE</h1>
-      </div>     
-    </div>
-
-    <div class="menu top">
-      <div class="container">
-        <button type="button" class="btn active" id="pending"><a href="#">Pending</a></button>
-        <button type="button" class="btn" id="completed"><a href="#">Completed</a></button>
-        <button type="button" class="btn active" id="all"><a href="#">All</a></button>
-        <button type="button" class="btn" id="work"><a href="#">Work</a></button>
-        <button type="button" class="btn" id="home"><a href="#">Home</a></button> 
-      </div>
-    </div>
-
-    <div class="menu middle">
-      <div class="container">
-        <button type="button" class="btn active" id="all"><a href="#">All</a></button>
-        <button type="button" class="btn" id="now"><a href="#">Now</a></button>
-        <button type="button" class="btn" id="next"><a href="#">Next</a></button> 
-        <button type="button" class="btn" id="soon"><a href="#">Soon</a></button>
-        <button type="button" class="btn" id="later"><a href="#">Later</a></button>
-        <button type="button" class="btn" id="waiting"><a href="#">Waiting</a></button>
+      <div class="container-fluid">
+        <div class="row-fluid">
+          <div class="col-md-6">
+            <a href="index.html"><h1>Jack Welpott</h1>
+            <p>Photography</p></a>
+          </div>
+          <div class="col-md-6">
+            <ul class="nav nav-tabs pull-right">
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="news_events.html">News/Events</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>  
+        </div>      
       </div>
     </div>
 
     <div class="main">
-      <div class="container">
-        <div class="list">
+      <div class="main-content">
+        <div class="container-fluid">
+          <div class="row-fluid">
+            <div class="col-md-6">
+              <div class="left">
+                <img src="images/65_Ave__Paris_836.jpg" class="img-responsive center-block" alt="responsive image">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="right">
+                <img src="images/Farmer_Twins_-_1958_836.jpg" class="img-responsive center-block" alt="responsive image">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <form class="form">
-      <div class="form-container">
-        <input id="todo" type="text" class="form-input" placeholder="Add task">
+    <div class="footer">
+      <div class="container-fluid">
+        <div class="row-fluid">
+          <div class="col-md-6">
+          </div>
+          <div class="col-md-6">
+            <div class="social-media pull-right">
+              <a href="https://www.facebook.com/jackwelpott/">facebook</a>
+              <a href="https://twitter.com/jackwelpott">twitter</a>
+            </div>
+          </div>  
+        </div>      
       </div>
-      <button type="submit" class="btn btn-default">+</button>
-    </form>
+    </div>       
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="scripts/jquery-1.11.3.min.js"></script>
+    <script src="scripts/app.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
     <script src="scripts/main.js"></script>
   </body>

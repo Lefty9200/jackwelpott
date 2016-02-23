@@ -2,6 +2,11 @@ html, body {
   font-family: 'Arvo', sans-serif;
 }
 
+.col-md-4 {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
 .col-md-6 {
   margin: 0px !important;
   padding: 0px !important;
@@ -19,20 +24,20 @@ html, body {
 
 /* header */
 h1 {
-	padding: 10px 15px;
+  padding: 10px 15px;
 }
 
-p {
-	padding: 0px 15px;
+.header p {
+  padding: 0px 15px;
 }
 
 .header ul {
-	margin-top: 15px;
-	margin-bottom: 35px;
+  margin-top: 15px;
+  margin-bottom: 35px;
 }
 
 .header li a {
-	padding: 10px 15px;
+  padding: 10px 15px;
 }
 
 .header a {
@@ -41,7 +46,7 @@ p {
 }
 
 .header ul.nav a:hover {
-	background-color: white;
+  background-color: white;
   border-top: #DDDDDD solid 1px;
   border-right: #DDDDDD solid 1px;
   border-bottom: white solid 1px;
@@ -56,22 +61,10 @@ p {
   border-left: #DDDDDD solid 1px;
  }
 
- img {
-  max-width: 836px;
- }
-
  /* Main */
- .left {
- 	padding-top: 90px; 
- 	padding-bottom: 90px;
- 	padding-right: 4px;
- }
-
- .right {
- 	padding-top: 90px; 
- 	padding-bottom: 90px;
- 	padding-left: 4px;
- }
+.main-content {
+  padding: 45px 45px 60px 45px;
+}
 
 .center-block {
   display: block;
@@ -79,35 +72,44 @@ p {
   margin-right: auto;
 }
 
+img {
+  padding: .5px;
+}
+
 /* Footer */
+.footer .social-media {
+  border-top: #DDDDDD solid 1px;
+}
 
-.footer {
-  margin-bottom: 40px;
-} 
+.footer ul {
+  margin-top: 10px;
+  padding-left: 0px;
+  list-style-type: none;
+}
 
-.footer a {
- 	padding: 10px 15px;
- 	list-style-type: none;
+.footer ul li {
+  display: inline;
+}
+
+.footer ul li a {
+  padding: 10px 15px 15px 15px;
+  list-style-type: none;
   text-decoration: none;
   color: black;
 }
 
-@media (max-width: 991px) {
-  .left {
-    padding-top: 30px; 
-    padding-bottom: 32.5px;
-    padding-right: 0px;
-  }
-
-  .right {
-    padding-top: 32.5px; 
-    padding-bottom: 45px;
-    padding-left: 0px;
-  }
+.footer p {
+  color: #8A8A8A;
+  font-size: 12px;
+  padding: 10px;
 }
 
-@media (max-width: 360px) {
-  .header li a {
-    padding: 10px 8px;
+@media (max-width: 414px) {
+  .main-content {
+   padding: 45px 22.5px 60px 22.5px;
+  }
+  img {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
